@@ -8,10 +8,10 @@ const pt: PartialLocaleType = {
   Error: {
     Unauthorized: isApp
       ? `😆 A conversa encontrou alguns problemas, não se preocupe:
-   \\ 2️⃣ Se você deseja usar seus próprios recursos OpenAI, clique [aqui](/#/settings) para modificar as configurações ⚙️`
+   \\ 1️⃣ Se você deseja usar seus próprios recursos OpenAI, clique [aqui](/#/settings) para modificar as configurações ⚙️`
       : `😆 A conversa encontrou alguns problemas, não se preocupe:
-   \ 2️⃣ Se você estiver usando uma versão de implantação privada, clique [aqui](/#/auth) para inserir a chave de acesso 🔑
-   \ 3️⃣ Se você deseja usar seus próprios recursos OpenAI, clique [aqui](/#/settings) para modificar as configurações ⚙️
+   \ 1️⃣ Se você estiver usando uma versão de implantação privada, clique [aqui](/#/auth) para inserir a chave de acesso 🔑
+   \ 2️⃣ Se você deseja usar seus próprios recursos OpenAI, clique [aqui](/#/settings) para modificar as configurações ⚙️
 `,
   },
   Auth: {
@@ -285,7 +285,6 @@ const pt: PartialLocaleType = {
       NoAccess: "Insira a Chave API para verificar o saldo",
     },
     Access: {
-
       AccessCode: {
         Title: "Código de Acesso",
         SubTitle: "Controle de Acesso Habilitado",

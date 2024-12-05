@@ -8,10 +8,10 @@ const id: PartialLocaleType = {
   Error: {
     Unauthorized: isApp
       ? `😆 Percakapan mengalami beberapa masalah, tidak perlu khawatir:
-   \\ 2️⃣ Jika Anda ingin menggunakan sumber daya OpenAI Anda sendiri, klik [di sini](/#/settings) untuk mengubah pengaturan ⚙️`
+   \\ 1️⃣ Jika Anda ingin menggunakan sumber daya OpenAI Anda sendiri, klik [di sini](/#/settings) untuk mengubah pengaturan ⚙️`
       : `😆 Percakapan mengalami beberapa masalah, tidak perlu khawatir:
-   \ 2️⃣ Jika Anda menggunakan versi penyebaran pribadi, klik [di sini](/#/auth) untuk memasukkan kunci akses 🔑
-   \ 3️⃣ Jika Anda ingin menggunakan sumber daya OpenAI Anda sendiri, klik [di sini](/#/settings) untuk mengubah pengaturan ⚙️
+   \ 1️⃣ Jika Anda menggunakan versi penyebaran pribadi, klik [di sini](/#/auth) untuk memasukkan kunci akses 🔑
+   \ 2️⃣ Jika Anda ingin menggunakan sumber daya OpenAI Anda sendiri, klik [di sini](/#/settings) untuk mengubah pengaturan ⚙️
 `,
   },
   Auth: {
@@ -22,6 +22,7 @@ const id: PartialLocaleType = {
     Confirm: "Konfirmasi",
     Later: "Nanti",
     Return: "Kembali",
+  },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} percakapan`,
   },
@@ -288,7 +289,6 @@ const id: PartialLocaleType = {
     },
 
     Access: {
-
       AccessCode: {
         Title: "Kata Sandi Akses",
         SubTitle: "Administrator telah mengaktifkan akses terenkripsi",

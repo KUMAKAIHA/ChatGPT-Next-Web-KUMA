@@ -8,10 +8,10 @@ const it: PartialLocaleType = {
   Error: {
     Unauthorized: isApp
       ? `😆 La conversazione ha incontrato alcuni problemi, non preoccuparti:
-    \\ 2️⃣ Se vuoi utilizzare le tue risorse OpenAI, clicca [qui](/#/settings) per modificare le impostazioni ⚙️`
+    \\ 1️⃣ Se vuoi utilizzare le tue risorse OpenAI, clicca [qui](/#/settings) per modificare le impostazioni ⚙️`
       : `😆 La conversazione ha incontrato alcuni problemi, non preoccuparti:
-    \ 2️⃣ Se stai utilizzando una versione di distribuzione privata, clicca [qui](/#/auth) per inserire la chiave di accesso 🔑
-    \ 3️⃣ Se vuoi utilizzare le tue risorse OpenAI, clicca [qui](/#/settings) per modificare le impostazioni ⚙️
+    \ 1️⃣ Se stai utilizzando una versione di distribuzione privata, clicca [qui](/#/auth) per inserire la chiave di accesso 🔑
+    \ 2️⃣ Se vuoi utilizzare le tue risorse OpenAI, clicca [qui](/#/settings) per modificare le impostazioni ⚙️
  `,
   },
   Auth: {
@@ -22,6 +22,7 @@ const it: PartialLocaleType = {
     Confirm: "Conferma",
     Later: "Più tardi",
     Return: "Ritorna",
+  },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} conversazioni`,
   },
@@ -298,7 +299,6 @@ const it: PartialLocaleType = {
     },
 
     Access: {
-
       AccessCode: {
         Title: "Password di accesso",
         SubTitle: "L'amministratore ha abilitato l'accesso criptato",

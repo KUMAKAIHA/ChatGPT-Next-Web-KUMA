@@ -8,10 +8,10 @@ const tr: PartialLocaleType = {
   Error: {
     Unauthorized: isApp
       ? `😆 Sohbet bazı sorunlarla karşılaştı, endişelenmeyin:
-    \\ 2️⃣ Kendi OpenAI kaynaklarınızı kullanmak istiyorsanız, [buraya tıklayarak](/#/settings) ayarları değiştirin ⚙️`
+    \\ 1️⃣ Kendi OpenAI kaynaklarınızı kullanmak istiyorsanız, [buraya tıklayarak](/#/settings) ayarları değiştirin ⚙️`
       : `😆 Sohbet bazı sorunlarla karşılaştı, endişelenmeyin:
-    \ 2️⃣ Eğer özel dağıtım sürümü kullanıyorsanız, [buraya tıklayarak](/#/auth) erişim anahtarını girin 🔑
-    \ 3️⃣ Kendi OpenAI kaynaklarınızı kullanmak istiyorsanız, [buraya tıklayarak](/#/settings) ayarları değiştirin ⚙️
+    \ 1️⃣ Eğer özel dağıtım sürümü kullanıyorsanız, [buraya tıklayarak](/#/auth) erişim anahtarını girin 🔑
+    \ 2️⃣ Kendi OpenAI kaynaklarınızı kullanmak istiyorsanız, [buraya tıklayarak](/#/settings) ayarları değiştirin ⚙️
  `,
   },
   Auth: {
@@ -290,7 +290,6 @@ const tr: PartialLocaleType = {
     },
 
     Access: {
-
       AccessCode: {
         Title: "Erişim Şifresi",
         SubTitle: "Yönetici şifreli erişimi etkinleştirdi",

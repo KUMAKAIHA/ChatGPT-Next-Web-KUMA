@@ -2,7 +2,7 @@ import styles from "./auth.module.scss";
 import { IconButton } from "./button";
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { Path, SAAS_CHAT_URL } from "../constant";
+import { Path } from "../constant";
 import { useAccessStore } from "../store";
 import Locale from "../locales";
 import Delete from "../icons/close.svg";
@@ -27,10 +27,7 @@ export function AuthPage() {
   const accessStore = useAccessStore();
   const goHome = () => navigate(Path.Home);
   const goChat = () => navigate(Path.Chat);
-  const goSaas = () => {
-    trackAuthorizationPageButtonToCPaymentClick();
-    window.location.href = SAAS_CHAT_URL;
-  };
+
 
   const resetAccessCode = () => {
     accessStore.update((access) => {
@@ -115,12 +112,6 @@ export function AuthPage() {
           type="primary"
           onClick={goChat}
         />
-        <IconButton
-          text={Locale.Auth.SaasTips}
-          onClick={() => {
-            goSaas();
-          }}
-        />
       </div>
     </div>
   );
@@ -159,31 +150,5 @@ function TopBanner() {
   if (!isVisible) {
     return null;
   }
-  return (
-    <div
-      className={styles["top-banner"]}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-    >
-      <div className={clsx(styles["top-banner-inner"], "no-dark")}>
-        <Logo className={styles["top-banner-logo"]}></Logo>
-        <span>
-          {Locale.Auth.TopTips}
-          <a
-            href={SAAS_CHAT_URL}
-            rel="stylesheet"
-            onClick={() => {
-              trackSettingsPageGuideToCPaymentClick();
-            }}
-          >
-            {Locale.Settings.Access.SaasStart.ChatNow}
-            <Arrow style={{ marginLeft: "4px" }} />
-          </a>
-        </span>
-      </div>
-      {(isHovered || isMobile) && (
-        <Delete className={styles["top-banner-close"]} onClick={handleClose} />
-      )}
-    </div>
-  );
+  return 
 }

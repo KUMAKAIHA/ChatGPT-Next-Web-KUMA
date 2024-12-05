@@ -8,10 +8,10 @@ const fr: PartialLocaleType = {
   Error: {
     Unauthorized: isApp
       ? `😆 La conversation a rencontré quelques problèmes, pas de panique :
-    \\ 2️⃣ Si vous souhaitez utiliser vos propres ressources OpenAI, cliquez [ici](/#/settings) pour modifier les paramètres ⚙️`
+    \\ 1️⃣ Si vous souhaitez utiliser vos propres ressources OpenAI, cliquez [ici](/#/settings) pour modifier les paramètres ⚙️`
       : `😆 La conversation a rencontré quelques problèmes, pas de panique :
-    \ 2️⃣ Si vous utilisez une version déployée privée, cliquez [ici](/#/auth) pour entrer la clé d'accès 🔑
-    \ 3️⃣ Si vous souhaitez utiliser vos propres ressources OpenAI, cliquez [ici](/#/settings) pour modifier les paramètres ⚙️
+    \ 1️⃣ Si vous utilisez une version déployée privée, cliquez [ici](/#/auth) pour entrer la clé d'accès 🔑
+    \ 2️⃣ Si vous souhaitez utiliser vos propres ressources OpenAI, cliquez [ici](/#/settings) pour modifier les paramètres ⚙️
  `,
   },
   Auth: {
@@ -22,6 +22,7 @@ const fr: PartialLocaleType = {
     Confirm: "Confirmer",
     Later: "Plus tard",
     Return: "Retour",
+  },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} conversations`,
   },

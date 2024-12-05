@@ -8,10 +8,10 @@ const vi: PartialLocaleType = {
   Error: {
     Unauthorized: isApp
       ? `😆 Cuộc trò chuyện gặp một số vấn đề, đừng lo lắng:
-    \\ 2️⃣ Nếu bạn muốn sử dụng tài nguyên OpenAI của riêng mình, hãy nhấp [vào đây](/#/settings) để thay đổi cài đặt ⚙️`
+    \\ 1️⃣ Nếu bạn muốn sử dụng tài nguyên OpenAI của riêng mình, hãy nhấp [vào đây](/#/settings) để thay đổi cài đặt ⚙️`
       : `😆 Cuộc trò chuyện gặp một số vấn đề, đừng lo lắng:
-    \ 2️⃣ Nếu bạn đang sử dụng phiên bản triển khai riêng, hãy nhấp [vào đây](/#/auth) để nhập khóa truy cập 🔑
-    \ 3️⃣ Nếu bạn muốn sử dụng tài nguyên OpenAI của riêng mình, hãy nhấp [vào đây](/#/settings) để thay đổi cài đặt ⚙️
+    \ 1️⃣ Nếu bạn đang sử dụng phiên bản triển khai riêng, hãy nhấp [vào đây](/#/auth) để nhập khóa truy cập 🔑
+    \ 2️⃣ Nếu bạn muốn sử dụng tài nguyên OpenAI của riêng mình, hãy nhấp [vào đây](/#/settings) để thay đổi cài đặt ⚙️
  `,
   },
   Auth: {
@@ -287,7 +287,6 @@ const vi: PartialLocaleType = {
     },
 
     Access: {
-
       AccessCode: {
         Title: "Mật khẩu truy cập",
         SubTitle: "Quản trị viên đã bật truy cập mã hóa",

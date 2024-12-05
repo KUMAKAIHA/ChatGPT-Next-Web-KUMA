@@ -8,10 +8,10 @@ const jp: PartialLocaleType = {
   Error: {
     Unauthorized: isApp
       ? `😆 会話中に問題が発生しましたが、心配しないでください:
-    \\ 2️⃣ 自分のOpenAIリソースを使用したい場合は、[ここをクリックして](/#/settings)設定を変更してください ⚙️`
+    \\ 1️⃣ 自分のOpenAIリソースを使用したい場合は、[ここをクリックして](/#/settings)設定を変更してください ⚙️`
       : `😆 会話中に問題が発生しましたが、心配しないでください:
-    \ 2️⃣ プライベートデプロイ版を使用している場合は、[ここをクリックして](/#/auth)アクセストークンを入力してください 🔑
-    \ 3️⃣ 自分のOpenAIリソースを使用したい場合は、[ここをクリックして](/#/settings)設定を変更してください ⚙️
+    \ 1️⃣ プライベートデプロイ版を使用している場合は、[ここをクリックして](/#/auth)アクセストークンを入力してください 🔑
+    \ 2️⃣ 自分のOpenAIリソースを使用したい場合は、[ここをクリックして](/#/settings)設定を変更してください ⚙️
  `,
   },
   Auth: {
@@ -22,6 +22,7 @@ const jp: PartialLocaleType = {
     Confirm: "確認",
     Later: "後で",
     Return: "戻る",
+  },
   ChatItem: {
     ChatItemCount: (count: number) => `${count}件の会話`,
   },
@@ -285,7 +286,6 @@ const jp: PartialLocaleType = {
     },
 
     Access: {
-
       AccessCode: {
         Title: "アクセスパスワード",
         SubTitle: "管理者が暗号化アクセスを有効にしました",

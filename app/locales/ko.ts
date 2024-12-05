@@ -8,10 +8,10 @@ const ko: PartialLocaleType = {
   Error: {
     Unauthorized: isApp
       ? `😆 대화 중 문제가 발생했습니다, 걱정하지 마세요:
-    \\ 2️⃣ 자신의 OpenAI 리소스를 사용하고 싶다면, [여기를 클릭하여](/#/settings) 설정을 수정하세요 ⚙️`
+    \\ 1️⃣ 자신의 OpenAI 리소스를 사용하고 싶다면, [여기를 클릭하여](/#/settings) 설정을 수정하세요 ⚙️`
       : `😆 대화 중 문제가 발생했습니다, 걱정하지 마세요:
-    \ 2️⃣ 개인 배포 버전을 사용하고 있다면, [여기를 클릭하여](/#/auth) 접근 키를 입력하세요 🔑
-    \ 3️⃣ 자신의 OpenAI 리소스를 사용하고 싶다면, [여기를 클릭하여](/#/settings) 설정을 수정하세요 ⚙️
+    \ 1️⃣ 개인 배포 버전을 사용하고 있다면, [여기를 클릭하여](/#/auth) 접근 키를 입력하세요 🔑
+    \ 2️⃣ 자신의 OpenAI 리소스를 사용하고 싶다면, [여기를 클릭하여](/#/settings) 설정을 수정하세요 ⚙️
  `,
   },
   Auth: {
@@ -22,6 +22,7 @@ const ko: PartialLocaleType = {
     Confirm: "확인",
     Later: "나중에 하기",
     Return: "돌아가기",
+  },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 개의 대화`,
   },
@@ -284,7 +285,6 @@ const ko: PartialLocaleType = {
     },
 
     Access: {
-
       AccessCode: {
         Title: "접근 비밀번호",
         SubTitle: "관리자가 암호화된 접근을 활성화했습니다.",

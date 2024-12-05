@@ -9,10 +9,10 @@ const sk: PartialLocaleType = {
   Error: {
     Unauthorized: isApp
       ? `😆 Rozhovor narazil na nejaké problémy, nebojte sa:
-    \\ 2️⃣ Ak chcete používať svoje vlastné zdroje OpenAI, kliknite [sem](/#/settings), aby ste upravili nastavenia ⚙️`
+    \\ 1️⃣ Ak chcete používať svoje vlastné zdroje OpenAI, kliknite [sem](/#/settings), aby ste upravili nastavenia ⚙️`
       : `😆 Rozhovor narazil na nejaké problémy, nebojte sa:
-    \ 2️⃣ Ak používate verziu súkromného nasadenia, kliknite [sem](/#/auth), aby ste zadali prístupový kľúč 🔑
-    \ 3️⃣ Ak chcete používať svoje vlastné zdroje OpenAI, kliknite [sem](/#/settings), aby ste upravili nastavenia ⚙️
+    \ 1️⃣ Ak používate verziu súkromného nasadenia, kliknite [sem](/#/auth), aby ste zadali prístupový kľúč 🔑
+    \ 2️⃣ Ak chcete používať svoje vlastné zdroje OpenAI, kliknite [sem](/#/settings), aby ste upravili nastavenia ⚙️
  `,
   },
   Auth: {
@@ -285,7 +285,6 @@ const sk: PartialLocaleType = {
       NoAccess: "Zadajte API kľúč na skontrolovanie zostatku",
     },
     Access: {
-
       AccessCode: {
         Title: "Prístupový kód",
         SubTitle: "Povolený prístupový kód",

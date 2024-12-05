@@ -8,10 +8,10 @@ const no: PartialLocaleType = {
   Error: {
     Unauthorized: isApp
       ? `😆 Samtalen har støtt på noen problemer, ikke bekymre deg:
-    \\ 2️⃣ Hvis du vil bruke dine egne OpenAI-ressurser, klikk [her](/#/settings) for å endre innstillingene ⚙️`
+    \\ 1️⃣ Hvis du vil bruke dine egne OpenAI-ressurser, klikk [her](/#/settings) for å endre innstillingene ⚙️`
       : `😆 Samtalen har støtt på noen problemer, ikke bekymre deg:
-    \ 2️⃣ Hvis du bruker en privat distribusjonsversjon, klikk [her](/#/auth) for å skrive inn tilgangsnøkkelen 🔑
-    \ 3️⃣ Hvis du vil bruke dine egne OpenAI-ressurser, klikk [her](/#/settings) for å endre innstillingene ⚙️
+    \ 1️⃣ Hvis du bruker en privat distribusjonsversjon, klikk [her](/#/auth) for å skrive inn tilgangsnøkkelen 🔑
+    \ 2️⃣ Hvis du vil bruke dine egne OpenAI-ressurser, klikk [her](/#/settings) for å endre innstillingene ⚙️
  `,
   },
   Auth: {
@@ -292,7 +292,6 @@ const no: PartialLocaleType = {
     },
 
     Access: {
-
       AccessCode: {
         Title: "Adgangskode",
         SubTitle: "Administrator har aktivert kryptert tilgang",
