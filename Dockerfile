@@ -1,5 +1,11 @@
-FROM node:18-alpine AS base
+# 使用 Buildx 构建多架构镜像
+# 构建命令示例:
+# docker buildx build --platform linux/arm/v7,linux/amd64 -t your-image-name:tag .
 
+# 基础镜像
+FROM --platform=$BUILDPLATFORM node:18-alpine AS base
+
+# 依赖阶段
 FROM base AS deps
 
 RUN apk add --no-cache libc6-compat
@@ -11,6 +17,7 @@ COPY package.json yarn.lock ./
 RUN yarn config set registry 'https://registry.npmmirror.com/'
 RUN yarn install
 
+# 构建阶段
 FROM base AS builder
 
 RUN apk update && apk add --no-cache git
@@ -25,6 +32,7 @@ COPY . .
 
 RUN yarn build
 
+# 运行阶段
 FROM base AS runner
 WORKDIR /app
 
